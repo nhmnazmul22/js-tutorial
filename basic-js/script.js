@@ -62,3 +62,7 @@ switch (true) {
     console.log("Do better Next time! You got F");
 }
 /*============= Basic For loop  ================ */
+
+for (let i = 0; i < 10; i++) {
+  console.log(i + " " + "I am Human");
+}
