@@ -1,5 +1,6 @@
 /*============= Js Object && Array  ================ */
 
+/* 
 const obj = {
   fristName: "Nazmul",
   middleName: "Hasan",
@@ -14,9 +15,10 @@ const myDetails = `My name is ${obj.fristName} ${obj.middleName} ${obj.lastName}
 
 console.log(obj);
 console.log(arry);
-console.log(myDetails);
+console.log(myDetails); 
+*/
 /*============= If, if else, if else if  ================ */
-
+/* 
 let mark = 85;
 
 if (mark >= 80 && mark <= 100) {
@@ -34,9 +36,10 @@ if (mark >= 80 && mark <= 100) {
 } else {
   console.log("Do better Next time! You got F");
 }
+*/
 
 /*============= Switch Statement  ================ */
-
+/*
 let mark2 = 67;
 
 switch (true) {
@@ -61,8 +64,32 @@ switch (true) {
   default:
     console.log("Do better Next time! You got F");
 }
+*/
 /*============= Basic For loop  ================ */
-
+/*
 for (let i = 0; i < 10; i++) {
   console.log(i + " " + "I am Human");
+}
+*/
+/*============= Break & Continue  ================ */
+/*
+for (let i = 0; i < 10; i++) {
+  if (i === 2 || i === 4) {
+    continue;
+  }
+  if (i === 6) {
+    break;
+  }
+  console.log(i + " " + "I am Human");
+}
+*/
+/*============= While Loop ================ */
+let i = 0;
+while (i <= 3) {
+  let j = 0;
+  while (j <= 3) {
+    console.log(i, j);
+    j++;
+  }
+  i++;
 }
