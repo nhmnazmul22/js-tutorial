@@ -84,6 +84,7 @@ for (let i = 0; i < 10; i++) {
 }
 */
 /*============= While Loop ================ */
+/*
 let i = 0;
 while (i <= 3) {
   let j = 0;
@@ -92,4 +93,21 @@ while (i <= 3) {
     j++;
   }
   i++;
+}*/
+/*============= JavaScript Funtion ================ */
+
+function minNum(arry) {
+  if (arry.length === 0) {
+    return "Please, Insert Some number in Array";
+  }
+  let smallNum = arry[0];
+  for (let i = 0; i < arry.length; i++) {
+    if (arry[i] < smallNum) {
+      smallNum = arry[i];
+    }
+  }
+  return smallNum;
 }
+
+const result = minNum([20, 30, -40, -55, 60, 70]);
+console.log(result);
