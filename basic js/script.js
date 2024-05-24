@@ -15,3 +15,12 @@ const myDetails = `My name is ${obj.fristName} ${obj.middleName} ${obj.lastName}
 console.log(obj);
 console.log(arry);
 console.log(myDetails);
+/*============= If, if else, if else if  ================ */
+
+const age = 18;
+
+if (age > 18) {
+  console.log("You are Adult");
+} else {
+  console.log("You are Child");
+}
