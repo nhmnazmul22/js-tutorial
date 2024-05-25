@@ -148,7 +148,7 @@ const product = [
 console.log(product[2]);
 */
 /*============= Js Basic for loop over array ================ */
-
+/*
 const product = [
   "Women's & Girls' Fashion",
   "Health & Beauty",
@@ -158,4 +158,33 @@ const product = [
 
 for (let i = 0; i < product.length; i++) {
   console.log(product[i]);
+}
+*/
+/*============= for in and of loop over array and object================ */
+/*
+const products = [
+  "Women's & Girls' Fashion",
+  "Health & Beauty",
+  "Watches, Bags, Jewellery",
+  "Men's & Boys' Fashion",
+];
+
+for (let index in products) {
+  console.log(products[index]);
+}
+
+for(let product of products){
+  console.log(product);
+}
+*/
+const address = {
+  village: "Saitola",
+  thana: "Devidwar",
+  postOffice: "Moricha",
+  district: "Cumilla",
+  country: "Bangladesh",
+};
+
+for (let key in address) {
+  console.log(address[key])
 }
