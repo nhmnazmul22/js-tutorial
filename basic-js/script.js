@@ -95,6 +95,7 @@ while (i <= 3) {
   i++;
 }*/
 /*============= Do While Loop ================ */
+/*
 let i = 0;
 do {
   console.log(i + 100);
@@ -103,9 +104,10 @@ do {
 
 const result = minNum([20, 30, -40, -55, 60, 70]);
 console.log(result);
+*/
 
 /*============= JavaScript Funtion ================ */
-
+/*
 function minNum(arry) {
   if (arry.length === 0) {
     return "Please, Insert Some number in Array";
@@ -118,3 +120,17 @@ function minNum(arry) {
   }
   return smallNum;
 }
+*/
+/*============= Js Basic Object ================ */
+
+const myPc = {
+  brand: "Apple",
+  screen: "24 Inc",
+  ram: "6GB",
+  disk: "500GB",
+  price: "25,000",
+  isPc: true,
+  isLaptop: false,
+};
+
+console.log(myPc.isLaptop);
