@@ -84,6 +84,7 @@ for (let i = 0; i < 10; i++) {
 }
 */
 /*============= While Loop ================ */
+/*
 let i = 0;
 while (i <= 3) {
   let j = 0;
@@ -93,3 +94,10 @@ while (i <= 3) {
   }
   i++;
 }
+*/
+/*============= Do While Loop ================ */
+let i = 0;
+do {
+  console.log(i + 100);
+  i++;
+} while (i < 3);
