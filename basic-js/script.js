@@ -122,7 +122,7 @@ function minNum(arry) {
 }
 */
 /*============= Js Basic Object ================ */
-
+/*
 const myPc = {
   brand: "Apple",
   screen: "24 Inc",
@@ -134,3 +134,16 @@ const myPc = {
 };
 
 console.log(myPc.isLaptop);
+*/
+
+/*============= Js Basic Array ================ */
+const product = [
+  "Women's & Girls' Fashion",
+  "Health & Beauty",
+  "Watches, Bags, Jewellery",
+  "Men's & Boys' Fashion",
+];
+
+console.log(product[2]);
+
+/*============= Js Basic for loop over array ================ */
