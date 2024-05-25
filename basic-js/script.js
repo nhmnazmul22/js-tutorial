@@ -137,6 +137,7 @@ console.log(myPc.isLaptop);
 */
 
 /*============= Js Basic Array ================ */
+/*
 const product = [
   "Women's & Girls' Fashion",
   "Health & Beauty",
@@ -145,5 +146,16 @@ const product = [
 ];
 
 console.log(product[2]);
-
+*/
 /*============= Js Basic for loop over array ================ */
+
+const product = [
+  "Women's & Girls' Fashion",
+  "Health & Beauty",
+  "Watches, Bags, Jewellery",
+  "Men's & Boys' Fashion",
+];
+
+for (let i = 0; i < product.length; i++) {
+  console.log(product[i]);
+}
