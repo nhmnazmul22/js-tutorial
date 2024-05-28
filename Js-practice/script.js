@@ -177,6 +177,7 @@ for(let product of products){
   console.log(product);
 }
 */
+/*
 const address = {
   village: "Saitola",
   thana: "Devidwar",
@@ -188,3 +189,4 @@ const address = {
 for (let key in address) {
   console.log(address[key])
 }
+*/
