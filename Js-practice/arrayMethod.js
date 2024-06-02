@@ -106,11 +106,18 @@ const numbers = [20, 30, 33, 50, 70, 66, 55, 22];
 const result = numbers.sort();
 console.log(result);
 */
-// #12 Array Slice Method --- It cut the velue form start and end index and it not change main array it return a array of cuting values ;
-
+// #12 Array Slice Method --- It cut the velue form start to end index and it not change main array it return a array of cuting values ;
+/*
 const numbers = [20, 30, 33, 50, 70, 66, 55, 22];
 
 const result = numbers.slice(0, 4);
 console.log(result);
 console.log(numbers);
- 
+*/
+// #13 Array Splice Method --- It add/delete the velue form provided index and it change main array and it return a array of deleted values ;
+const numbers = [20, 30, 33, 50, 70, 66, 55, 22];
+
+const result = numbers.splice(1, 2, 40, 50);
+
+console.log(result);
+console.log(numbers);
