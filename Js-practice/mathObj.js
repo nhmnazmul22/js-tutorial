@@ -74,5 +74,26 @@ const result = Math.pow(9, 2);
 console.log(result);
 */
 // #9 Math.sqrt(x) returns the square root of x:
+/*
 const result = Math.sqrt(124);
 console.log(result);
+*/
+// #10 Math.random() returns a random number between 0 (inclusive), and 1 (exclusive):
+/*
+const div = document.getElementById("div");
+
+setInterval(() => {
+  const red = Math.floor(Math.random() * 257);
+  const green = Math.floor(Math.random() * 257);
+  const blue = Math.floor(Math.random() * 257);
+  const rgbColor = `rgb(${red}, ${green}, ${blue})`;
+
+  div.style.background = rgbColor;
+}, 1000);
+*/
+
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+console.log(getRndInteger(20, 10));
